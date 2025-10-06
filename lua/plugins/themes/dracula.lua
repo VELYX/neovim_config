@@ -4,14 +4,14 @@ return {
   priority = 1000,
   config = function()
     -- Example config in lua
-    vim.g.dracula_contrast = true -- Make sidebars and popup menus like nvim-tree and telescope have a different background
-    vim.g.dracula_borders = false -- Enable the border between verticaly split windows visable
-    vim.g.dracula_disable_background = true -- Disable the setting of background color so that NeoVim can use your terminal background
-    vim.g.set_cursorline_transparent = false -- Set the cursorline transparent/visible
-    vim.g.dracula_italic = true -- enables/disables italics
-    vim.g.dracula_enable_sidebar_background = false -- Re-enables the background of the sidebar if you disabled the background of everything
-    vim.g.dracula_uniform_diff_background = true -- enables/disables colorful backgrounds when used in diff mode
-    vim.g.dracula_bold = false -- enables/disables bold
+    -- vim.g.dracula_contrast = true -- Make sidebars and popup menus like nvim-tree and telescope have a different background
+    -- vim.g.dracula_borders = false -- Enable the border between verticaly split windows visable
+    -- vim.g.dracula_disable_background = true -- Disable the setting of background color so that NeoVim can use your terminal background
+    -- vim.g.set_cursorline_transparent = false -- Set the cursorline transparent/visible
+    -- vim.g.dracula_italic = true -- enables/disables italics
+    -- vim.g.dracula_enable_sidebar_background = false -- Re-enables the background of the sidebar if you disabled the background of everything
+    -- vim.g.dracula_uniform_diff_background = true -- enables/disables colorful backgrounds when used in diff mode
+    -- vim.g.dracula_bold = false -- enables/disables bold
 
     require('dracula').setup {
       colors = {
