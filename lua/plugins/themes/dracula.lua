@@ -45,6 +45,9 @@ return {
       -- use transparent background
       transparent_bg = true, -- default false
 
+      -- transparent.nvim theme flag
+      transparent = vim.g.transparent_enabled,
+
       float = {
         transparent = true, -- enable transparent floating windows
         solid = false, -- use solid styling for floating windows, see |winborder|

@@ -56,6 +56,7 @@ require('lazy').setup({
   require 'plugins.aerial',
   require 'plugins.vim-tmux-navigator',
   require 'plugins.live-server',
+  -- require 'plugins.transparent',
 }, {
   ui = {
     -- If you have a Nerd Font, set icons to an empty table which will use the
@@ -100,3 +101,13 @@ end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- transparent.nvim bufferline setup ???
+-- vim.g.transparent_groups = vim.list_extend(
+--   vim.g.transparent_groups or {},
+--   vim.tbl_map(function(v)
+--     return v.hl_group
+--   end, vim.tbl_values(require('bufferline.config').highlights))
+-- )
+--
+-- require('transparent').clear_prefix 'BufferLine'
